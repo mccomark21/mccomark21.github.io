@@ -71,7 +71,7 @@ print(dim(Combine_df))
 vis_miss(Combine_df)
 ```
 
-![](img\posts\NBA_Combine\vis_miss_1.png)<!-- -->
+![](img/posts/NBA_Combine/vis_miss_1.png)<!-- -->
 
 ``` r
 # Missing data as a percentage per column
@@ -93,7 +93,7 @@ Combine_df <- Combine_df[keeps]
 vis_miss(Combine_df)
 ```
 
-![](img\posts\NBA_Combine\vis_miss_2.png)<!-- -->
+![](img/posts/NBA_Combine/vis_miss_2.png)<!-- -->
 
 ## Data Imputation
 
@@ -126,7 +126,7 @@ assist in the imputation.
 gg_miss_upset(Combine_df)
 ```
 
-![](img\posts\NBA_Combine\gg_miss_upset.png)<!-- -->
+![](img/posts/NBA_Combine/gg_miss_upset.png)<!-- -->
 
 ``` r
 Combine_df$na_count <- apply(Combine_df, 1, function(x) sum(is.na(x)))
