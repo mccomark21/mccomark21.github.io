@@ -70,8 +70,7 @@ print(dim(Combine_df))
 ``` r
 vis_miss(Combine_df)
 ```
-
-<img src="img/posts/NBA_Combine/vis_miss_1.png" alt="Italian Trulli">
+<img src="/img/posts/NBA_Combine/vis_miss_1.png" alt="Missing Values">
 
 ``` r
 # Missing data as a percentage per column
